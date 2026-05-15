@@ -2,8 +2,8 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
 import type { Blog, Category, Tag, Comment, User } from '../types'
 import { toast } from 'sonner'
 
-// const API_URL = 'https://final-project-api-z8wi.onrender.com'
-const API_URL = 'http://localhost:5000'
+const API_URL = 'https://final-project-api-z8wi.onrender.com'
+// const API_URL = 'http://localhost:5000'
 
 export const apiFetch = async (endpoint: string, options: any = {}) => {
   const token =
